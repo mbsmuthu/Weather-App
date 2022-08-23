@@ -89,6 +89,7 @@ temp_comp.addEventListener("click", ()=>{
         wind.style.display="none";
 })
 })
+//empty line
 
 
 
