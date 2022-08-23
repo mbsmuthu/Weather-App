@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    
+}
+
+.top-component{
+    width: 75%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: .5rem;
+    
+}
+
+.temp-param{
+    font-size:2.5rem;
+    font-weight:500;
+    
+}
+
+.main-param{
+    display: flex;
+    gap:2rem;
+    
+}
+
+.current-location{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.location-param{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-component{
+   
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.tabs{
+    display: flex;
+    align-self: center;
+    
+}
+
+
+.temp-component:hover, .precip-component:hover, .wind-component:hover{
+        cursor:pointer;
+        border-bottom: 1px solid black;
+        transform: scale(1.05);
+        transform: 5s;
+}
+
+.day-container{
+    display: flex;
+    gap:1rem;
+}
+
+.day-component{
+    border:1px solid black;
+    border-radius: .5rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height:15rem;
+}
+
+.day-component:hover{
+    transform: scale(1.05);
+    transition: 15ms;
+}
+
+.day{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.max-min-temp{
+    display: flex;
+    gap:.5rem;
+    flex-direction: column;
+}
+
+.precip, .wind-speed{
+    display:none;
+}
+
