@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     
    
 </head>
@@ -13,9 +20,20 @@
     <div class="container">
         <div class="top-component">
             <div class="main-param">
-                <img src="#" alt="weather-status">
+                <!-- <i class="fa-solid fa-cloud fa-2x"></i>
+                <i class="fa-regular fa-sun-bright"></i>
+                <i class="fa-regular fa-cloud-fog"></i>
+                <i class="fa-regular fa-cloud-showers"></i>
+                <i class="fa-thin fa-cloud-sleet"></i>
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                <i class="fa-solid fa-snowflake"></i>
+                <i class="fa-solid fa-sparkles"></i>
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+                <i class="fa-solid fa-snowflakes"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <i class="fa-solid fa-bolt"></i> -->
                 <div class="temp-param" id="current-temp-param">
-                   
+                  
                 </div>
                 <div id="current-weather-params">
                     <div class="wind-param" id="wind-param"></div>
@@ -23,7 +41,13 @@
             </div>
             <div class="location-param">
                 <div class="current-location">
-                   Tambaram
+                   <select id="city">
+                    <option value="">Select city</option>
+                    <option>Chennai</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Delhi</option>
+                   </select>
                 </div>
                 <div id="day-time"></div>
                 <div id="current-weather"></div>
@@ -42,7 +66,7 @@
             <div class="day-container">
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -53,7 +77,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -64,7 +88,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -75,7 +99,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -86,7 +110,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -97,7 +121,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
@@ -108,7 +132,7 @@
 
                 <div class="day-component">
                     <div class="day"></div>
-                    <img src="#" alt="weather-status">
+                    <i class="wi"></i>
                     <div class="max-min-temp show">
                         <div class="max-temp">Max:</div>
                         <div class="min-temp">Min:</div>
